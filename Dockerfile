@@ -1,4 +1,4 @@
-FROM msaidf/rstudio-neovim
+FROM msaidf/r2-mlstats:3.5.3
 MAINTAINER "Muhamad Said Fathurrohman" muh.said@gmail.com
 
 RUN install2.r reticulate rdrop2 JuliaCall googledrive googleway googlesheets 
