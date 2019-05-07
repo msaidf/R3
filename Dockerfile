@@ -1,4 +1,4 @@
-FROM msaidf/r2-mlstats:3.6
+FROM msaidf/r2-mlstats:3.6.0
 MAINTAINER "Muhamad Said Fathurrohman" muh.said@gmail.com
 
 RUN install2.r reticulate rdrop2 JuliaCall googledrive googleway googlesheets 
